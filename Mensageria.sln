@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31829.152
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mensageria.WebApi", "Mensageria.WebApi\Mensageria.WebApi.csproj", "{6A409ED8-5FDB-4E64-A44E-570ACC8893F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mensageria.WebApi", "Mensageria.WebApi\Mensageria.WebApi.csproj", "{6A409ED8-5FDB-4E64-A44E-570ACC8893F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mensageria.Consumer", "Mensageria.Consumer\Mensageria.Consumer.csproj", "{1A7D4D61-78EB-4E64-A500-3834DDE763E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{6A409ED8-5FDB-4E64-A44E-570ACC8893F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A409ED8-5FDB-4E64-A44E-570ACC8893F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A409ED8-5FDB-4E64-A44E-570ACC8893F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A7D4D61-78EB-4E64-A500-3834DDE763E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A7D4D61-78EB-4E64-A500-3834DDE763E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A7D4D61-78EB-4E64-A500-3834DDE763E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A7D4D61-78EB-4E64-A500-3834DDE763E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
